@@ -5,7 +5,7 @@
 #include <ctype.h>
 #include <cstdlib>
 #include <sstream>
-
+//Autorem programu Jest Norbert F zmamy szerzej jako Nubet (https://github.com/Nubet/)
 using namespace std;
 
 string to_String(int Number)// z powodu braku wsparcia kompilatora devcpp do c++ 11 odtworzyłem funkcje to_string przy pomocy biblioteki sstream 
