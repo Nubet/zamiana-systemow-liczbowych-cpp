@@ -147,7 +147,7 @@ int main()
     }
     else {// w przypadku gdy uzytkownik chce zamienic liczbe z systemu dziesietnego jestesmy w stanie oszczedzic moc obliczeniowa nie probojac zamieniac systemu 10 na system 10 
          long long wynik = atoi(liczbaX.c_str()); // lub stoi(liczbaX) <-- ten zapis nie dziala poniewaz zostal wprowadzony w c++ 11 a kompilator devcpp korzysta z 10
-         zamiana_X_na_Y(systemX, wynik);
+         zamiana_X_na_Y(systemY, wynik);
     }
 
 
